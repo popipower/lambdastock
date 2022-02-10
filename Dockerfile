@@ -10,6 +10,8 @@ RUN pip install pandas
 RUN pip install pandas-ta
 RUN pip install yfinance
 RUN pip install pytz
+RUN pip install numerize
+
 
 
 # Set the CMD to your handler (could also be done as a parameter override outside of the Dockerfile)
